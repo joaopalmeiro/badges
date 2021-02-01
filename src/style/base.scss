@@ -1,0 +1,23 @@
+$black: #44475a;
+
+// Globals
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "avenir next", avenir,
+    helvetica, "helvetica neue", ubuntu, roboto, noto, "segoe ui", arial,
+    sans-serif;
+  color: $black;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+@import "mixins";
+
+// Partials
+@import "header";
+@import "badges";
