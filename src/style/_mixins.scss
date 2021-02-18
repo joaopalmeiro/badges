@@ -35,3 +35,29 @@
     }
   }
 }
+
+@mixin prefixer($property, $value, $prefixes) {
+  @each $prefix in $prefixes {
+    @if $prefix == webkit {
+      -webkit-#{$property}: $value;
+    } @else if $prefix == moz {
+      // Mozilla
+      -moz-#{$property}: $value;
+    } @else if $prefix == ms {
+      // Microsoft
+      -ms-#{$property}: $value;
+    } @else if $prefix == o {
+      // Opera
+      -o-#{$property}: $value;
+    } @else if $prefix == spec {
+      #{$property}: $value;
+    } @else {
+      @warn "Unrecognized prefix: #{$prefix}";
+    }
+  }
+}
+
+@mixin box-sizing($box) {
+  // content-box | border-box | inherit
+  @include prefixer(box-sizing, $box, webkit moz spec);
+}
