@@ -2,17 +2,15 @@ extends ./includes/_layout
 
 //- HEADER
 block header
-
   h1 Badges
 
 //- MAIN
 block main
-
   section
     ul.badge-list
       each badge in badges
         li
           img.view-all-badge(src=`images/badges/${badge}`)
-          div.view-all-copy
+          .view-all-copy
             a.inline-copy.markdown(href="#")
             a.inline-copy.imageurl(href="#")
