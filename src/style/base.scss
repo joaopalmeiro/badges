@@ -1,8 +1,6 @@
 $black: #44475a;
 $white: #f5f5f5;
 
-$mobile: 480px;
-
 @import "mixins";
 
 // Globals
@@ -23,7 +21,6 @@ body {
 
 h1 {
   font-size: 3rem;
-  color: $white;
 }
 
 a {
