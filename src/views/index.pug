@@ -4,7 +4,10 @@ extends ./includes/_layout
 block header
   .container
     h1.title Badges
-    p.subtitle Metadata ready to be copy-pasted to README files
+    //- Source: https://stackoverflow.com/a/6752736.
+    p.subtitle(style="white-space: pre")
+      | Metadata ready to be copy-pasted to README files.
+      | Adapted from Brave UX's "For the Badge".
     a.down
 
 //- MAIN
