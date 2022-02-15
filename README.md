@@ -14,6 +14,8 @@ A collection of badges ready to be used.
 
 > Pipenv
 
+[![pipenv](https://img.shields.io/badge/maintained%20with-pipenv-000000.svg)](https://pipenv.pypa.io/)
+
 ```text
 [![pipenv](https://img.shields.io/badge/maintained%20with-pipenv-000000.svg)](https://pipenv.pypa.io/)
 ```
