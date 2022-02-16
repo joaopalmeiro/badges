@@ -4,7 +4,9 @@ A collection of badges ready to be used.
 
 ## Management Tools
 
-> [Lerna](https://github.com/lerna/lerna#readme-badge)
+### Lerna
+
+> [Source](https://github.com/lerna/lerna#readme-badge)
 
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
 
@@ -12,7 +14,7 @@ A collection of badges ready to be used.
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
 ```
 
-> Pipenv
+### Pipenv
 
 [![pipenv](https://img.shields.io/badge/maintained%20with-pipenv-000000.svg)](https://pipenv.pypa.io/)
 
