@@ -22,6 +22,16 @@ A collection of badges ready to be used.
 [![pipenv](https://img.shields.io/badge/maintained%20with-pipenv-000000.svg)](https://pipenv.pypa.io/)
 ```
 
+### Poetry
+
+> [Source](https://python-poetry.org/docs/) (color extracted from the body background in dark mode)
+
+[![poetry](<https://img.shields.io/badge/maintained%20with-poetry-rgb(30%2041%2059).svg>)](https://python-poetry.org/)
+
+```text
+[![poetry](https://img.shields.io/badge/maintained%20with-poetry-rgb(30%2041%2059).svg)](https://python-poetry.org/)
+```
+
 ## Notes
 
 - [Dart Sass CLI](https://sass-lang.com/documentation/cli/dart-sass) (`sass`).
