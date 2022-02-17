@@ -22,6 +22,16 @@ A collection of badges ready to be used.
 [![pipenv](https://img.shields.io/badge/maintained%20with-pipenv-000000.svg)](https://pipenv.pypa.io/)
 ```
 
+### pnpm
+
+> [Source](https://github.com/pnpm/pnpm.github.io/tree/main/static/img/logos)
+
+[![pnpm](https://img.shields.io/badge/maintained%20with-pnpm-f9ad00.svg)](https://pnpm.io/)
+
+```text
+[![pnpm](https://img.shields.io/badge/maintained%20with-pnpm-f9ad00.svg)](https://pnpm.io/)
+```
+
 ### Poetry
 
 > [Source](https://python-poetry.org/docs/) (color extracted from the body background in dark mode)
